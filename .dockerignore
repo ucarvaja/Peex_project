@@ -1,0 +1,5 @@
+**/build
+*.md
+node_modules/
+.*
+.dockerignore
