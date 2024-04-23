@@ -1,3 +1,9 @@
+- name: Install Docker and deploy container
+  hosts: 172.31.87.231
+  remote_user: ec2-user
+  become: true
+  tasks:  
+  
   - name: Install Docker
     yum:
       name:

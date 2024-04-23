@@ -37,6 +37,11 @@ Ngnix as server
 file default.conf -> redirects requests to index.html
 Default container port: 80
 Dockefile reference : CMD
+To create multi OS images requires docker [buildx](https://docs.docker.com/reference/cli/docker/buildx/) to push images
+
+
+## Ansible
+Ansible playbook runs on ubuntu OS with the root user
 
 
 ## Learn More
@@ -44,6 +49,10 @@ Dockefile reference : CMD
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+
 
 
 
