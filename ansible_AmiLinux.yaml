@@ -1,0 +1,30 @@
+  - name: Install Docker
+    yum:
+      name:
+      - docker  # This will install the latest available version of Docker
+      state: present
+
+  - name: "Start Docker service"
+    service:
+     name: docker
+     state: started
+     enabled: yes
+
+  - name: Add ec2-user to the docker group
+    user:
+      name: ec2-user
+      groups: docker
+      append: yes
+
+  - name: Pull the Docker image
+    docker_image:
+      name: felipe8617/dog_breed:v1
+      source: pull
+
+  - name: Run the Docker container
+    docker_container:
+        name: dog_breed
+        image: felipe8617/dog_breed:v1
+        state: started
+        ports:
+          - "8080:80"
