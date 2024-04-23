@@ -1,20 +1,31 @@
-- name: Install Docker and deploy container
-  hosts: 172.31.87.231
-  remote_user: ec2-user
-  become: true
-  tasks:  
-  
+  - name: Install Docker and deploy container
+    hosts: 172.31.85.101
+    remote_user: ansadmin  # Default user for Amazon Linux AMI
+    become: true
+    tasks:
+
+  - name: Update yum cache
+    yum:
+      name: '*'
+      state: latest
+      update_cache: yes
+
+  - name: Remove old versions of Docker if any
+    yum:
+      name: docker
+      state: absent
+
   - name: Install Docker
     yum:
       name:
-      - docker  # This will install the latest available version of Docker
+        - docker  # This will install the latest available version of Docker
       state: present
 
   - name: "Start Docker service"
     service:
-     name: docker
-     state: started
-     enabled: yes
+        name: docker
+        state: started
+        enabled: yes
 
   - name: Add ec2-user to the docker group
     user:
