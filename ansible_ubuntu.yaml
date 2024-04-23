@@ -1,0 +1,31 @@
+---
+- name: Install Docker and deploy container
+  hosts: 172.31.95.9
+  remote_user: ubuntu
+  become: true
+  tasks:
+
+  - name: Install Docker.io
+    apt:
+      name: docker.io
+      state: present
+      update_cache: yes
+
+  - name: "Start Docker service"
+    service:
+        name: docker
+        state: started
+        enabled: yes
+
+  - name: Pull the Docker image
+    docker_image:
+     name: felipe8617/dog_breed:v1
+     source: pull
+
+  - name: Run the Docker container
+    docker_container:
+        name: dog_breed
+        image: felipe8617/dog_breed:v1
+        state: started
+        ports:
+          - "8080:80"
