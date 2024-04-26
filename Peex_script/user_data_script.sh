@@ -26,7 +26,7 @@ cat <<EOF > /var/www/html/index.html
 </head>
 <body>
     <h1>Welcome New User</h1>
-    <img src="http://example.com/path/to/gif" alt="Welcome GIF">
+    <iframe src="https://giphy.com/embed/eti1qm33pRbaw" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/south-park-eti1qm33pRbaw">via GIPHY</a></p>
 </body>
 </html>
 EOF
