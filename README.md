@@ -39,7 +39,6 @@ Default container port: 80
 Dockefile reference : CMD
 To create multi OS images requires docker [buildx](https://docs.docker.com/reference/cli/docker/buildx/) to push images
 
-
 ## Ansible
 Ansible playbook can be executed on ubuntu and linux servers as root user.
 Aansible master is run on a linux server
@@ -47,13 +46,6 @@ Ansible version 2.15.3
 
 To run playbook use `ansible-playbook ansible_multi_os.yaml` 
     Note:Ansible Nodes must be already sync up with master
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
 
 ## Peex_script
 
@@ -66,10 +58,16 @@ what it does:
 - Open Ports 8080 and 8090
 - Create a basic index.html with a header, a title saying 'Welcome New User' and adds a GIF item (PATH: /var/www/html/index.html)
 - Download a static webpage from an S3 bucket on AWS with wget (PATH: /var/www/a3/)
-- Create a new [VirtualHost](https://httpd.apache.org/docs/2.4/vhosts/) configuration file to serve satatic content on port 8090
-- file [user_data_script_64] is encrypted with base64 encoding
+- Create a VirtualHost configuration file to serve satatic content on port 8090
+- file `user_data_script_64` is encrypted with base64 encoding
 
 
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+About [VirtualHost](https://httpd.apache.org/docs/2.4/vhosts/)
 
 
 
