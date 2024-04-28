@@ -41,7 +41,7 @@ To create multi OS images requires docker [buildx](https://docs.docker.com/refer
 
 ## Ansible
 
-[Ansible](Images/Ansible_Diagram.jpg)
+![Ansible](Images/Ansible_Diagram.jpg)
 
 Ansible playbook can be executed on ubuntu and linux servers as root user.
 Aansible master is run on a linux server
