@@ -47,7 +47,7 @@ To create multi OS images requires docker [buildx](https://docs.docker.com/refer
 Ansible playbook can be executed on ubuntu and linux servers as root user.  
 Ansible master is run on a linux server.  
 Ansible version 2.15.3.  
-To run playbook use `ansible-playbook ansible_multi_os.yaml`. 
+To run playbook use `ansible-playbook ansible_multi_os.yaml`.   
     Note:Ansible Nodes must be already synced up with master
 
 ## Peex_script
