@@ -1,4 +1,4 @@
-# Getting started witj Config Management
+# Getting started with Config Management
 
 ## General Info
 
