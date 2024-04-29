@@ -35,13 +35,13 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Docker file
 
-Dockerfile uses multistage to reduce image weight.  
-Node as base image. 
-Ngnix as server. 
-file default.conf -> redirects requests to index.html. 
-Default container port: 80. 
-Dockefile reference : CMD. 
-To create multi OS images requires docker [buildx](https://docs.docker.com/reference/cli/docker/buildx/) before pushing images
+Dockerfile uses multistage to reduce image weight.    
+Node as base image.   
+Ngnix as server.   
+file default.conf -> redirects requests to index.html.   
+Default container port: 80.   
+Dockefile reference : CMD.   
+To create multi OS images requires docker [buildx](https://docs.docker.com/reference/cli/docker/buildx/) before pushing images. 
 
 
 ## Ansible
