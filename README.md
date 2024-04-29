@@ -41,7 +41,7 @@ Ngnix as server.
 file default.conf -> redirects requests to index.html.   
 Default container port: 80.   
 Dockefile reference : CMD.   
-To create multi OS images requires docker [buildx](https://docs.docker.com/reference/cli/docker/buildx/) before pushing images. 
+To create multi OS images requires docker [buildx](https://docs.docker.com/reference/cli/docker/buildx/) before pushing images to the registry. 
 
 
 ## Ansible
