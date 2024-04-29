@@ -61,8 +61,8 @@ what it does:
 - Open Ports 8080 and 8090
 - Create a basic index.html with a header, a title saying 'Welcome New User' and adds a GIF item (PATH: /var/www/html/index.html)
 - Download a static webpage from an S3 bucket on AWS with wget (PATH: /var/www/a3/)
-- Create a VirtualHost configuration file to serve satatic content on port 8090
-- file `user_data_script_64` is encrypted with base64 encoding
+- Create a VirtualHost configuration file to serve satatic content on port 8090. 
+- file `user_data_script_64` is encrypted with base64 encoding. 
 
 
 ## Learn More
