@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Getting started witj Config Management
+
+## General Info
+
+This porject is built as an expample of provisioning VM's using Ansible on a Cloud environment (AWS). 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
