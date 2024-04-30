@@ -13,21 +13,21 @@
           apt:
             name: docker.io
             state: present
-            update_cache: yes
+            update_cache: true
           when: ansible_facts.distribution == 'Ubuntu'
 
         - name: Start Docker service for Ubuntu
           service:
             name: docker
             state: started
-            enabled: yes
+            enabled: true
           when: ansible_facts.distribution == 'Ubuntu'
 
         - name: Add ubuntu user to the docker group (Ubuntu)
           user:
             name: ubuntu
             groups: docker
-            append: yes
+            append: true
           when: ansible_facts.distribution == 'Ubuntu'
       when: ansible_facts.distribution == 'Ubuntu'
 
@@ -36,21 +36,21 @@
           yum:
             name: docker
             state: present
-            update_cache: yes
+            update_cache: true
           when: ansible_facts.distribution == 'Amazon'
 
         - name: Start Docker service for Amazon Linux
           service:
             name: docker
             state: started
-            enabled: yes
+            enabled: true
           when: ansible_facts.distribution == 'Amazon'
 
         - name: Add ec2-user to the docker group (Amazon Linux)
           user:
             name: ec2-user
             groups: docker
-            append: yes
+            append: true
           when: ansible_facts.distribution == 'Amazon'
       when: ansible_facts.distribution == 'Amazon'
 
