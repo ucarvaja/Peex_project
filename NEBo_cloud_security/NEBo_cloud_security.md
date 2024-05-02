@@ -45,6 +45,8 @@
 
 ![ssh_config](/Images/Configure_sshd.png)
 
+[see_configfile]()
+
 ### Testing connection with NEbo_user
 
 ![test_connection_ec2_user](/Images/Testing_connection_ec2.png)
