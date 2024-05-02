@@ -68,13 +68,16 @@ what it does:
 - Create a VirtualHost configuration file to serve satatic content on port 8090. 
 - file `user_data_script_64` is encrypted with base64 encoding. 
 
+## Cloud Network NEBo
+
+[more_info](https://github.com/ucarvaja/Peex_project/tree/main/Cloud_Network_NEBo)
+
+## Cloud Security NEBo
+
+[more info](https://github.com/ucarvaja/Peex_project/tree/main/NEBo_cloud_security)
 
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).  
 To learn React, check out the [React documentation](https://reactjs.org/).  
-About [VirtualHost](https://httpd.apache.org/docs/2.4/vhosts/). 
-
-
-
-
+About [VirtualHost](https://httpd.apache.org/docs/2.4/vhosts/).
