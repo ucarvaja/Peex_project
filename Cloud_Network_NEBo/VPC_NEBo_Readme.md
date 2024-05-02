@@ -30,7 +30,7 @@
 
 ![Ec2 Private](/Images/ec2_private_subnet.png)
 
-
+## SSH from Public host to Public EC2
 
 ![ssh to public ec2](/Images/ssh_to_ec2_public.png)
 
