@@ -45,7 +45,7 @@
 
 ![ssh_config](/Images/Configure_sshd.png)
 
-[see_configfile]()
+[see_configfile](https://github.com/ucarvaja/Peex_project/blob/main/NEBo_cloud_security/sshd_config)
 
 ### Testing connection with NEbo_user
 
