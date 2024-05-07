@@ -2,8 +2,8 @@ build/
 *.md
 node_modules/
 .*
-.dockerignore
 Peex_script/
 Images/
 Cloud_Network_NEBo/
 NEBo_cloud_security/
+NEBo_Cloud_Observability/
