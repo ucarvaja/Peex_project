@@ -1,0 +1,5 @@
+# Creating base Alpine image
+FROM alpine
+
+# Update and upgrade packages
+RUN apk update && apk upgrade --no-cache
