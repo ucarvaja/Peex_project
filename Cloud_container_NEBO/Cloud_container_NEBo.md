@@ -7,6 +7,10 @@
     - The new image is labeled as felipe8617/nebo_container:v1
     - New Image is pushed to Dockerhub and can be pulled
 
+### Created images
+
+![created_images](/Images/NCC_created_images.png)
+
 ## Image is pushed to registry
 
 ![pushed_image](/Images/NCC_pushing_imaga_to_registry.png)
