@@ -24,8 +24,8 @@
 
 ### Notes
 
-- Requires a [default.conf]() file that need to copied to /etc/nginx/http.d/default.conf
-- [Dockerfile Parent Image]()
-- [Dockerfile New image]()
+- Requires a [default.conf](https://github.com/ucarvaja/Peex_project/blob/main/Cloud_container_NEBO/Dockerfile.newimage) file that need to copied to /etc/nginx/http.d/default.conf
+- [Dockerfile Parent Image](https://github.com/ucarvaja/Peex_project/blob/main/Cloud_container_NEBO/Dockerfile.parent)
+- [Dockerfile New image](https://github.com/ucarvaja/Peex_project/blob/main/Cloud_container_NEBO/default.conf)
 
     
