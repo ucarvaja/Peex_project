@@ -2,10 +2,10 @@ build/
 *.md
 node_modules/
 .*
-Peex_script/
 Images/
-Cloud_Network_NEBo/
 NEBo_cloud_security/
 NEBo_Cloud_Observability/
-Cloud_container_NEBO/
-Cloud_Storage_NEBo/
+NEBo_Cloud_container/
+NEBo_Cloud_Network/
+NEBo_Cloud_Storage/
+NEBo_Programming_scripting/
