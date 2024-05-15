@@ -50,6 +50,6 @@
 
 ## Notes
 
-- To perform this task it's required a VPC with a private and public sunbnets 
-- To access s3 bucket it's needed an edpoint with S3 service name and an IAM role with s3 permissions
+- To perform this task it's required a VPC with a private and public subnets 
+- To access s3 bucket it's needed an endpoint with S3 service name and an IAM role with s3 permissions
 - S3 must be blocked for public access
