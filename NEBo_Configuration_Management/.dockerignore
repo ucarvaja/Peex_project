@@ -2,11 +2,11 @@ build/
 *.md
 node_modules/
 .*
-Images/
-NEBo_cloud_security/
-NEBo_Cloud_Observability/
-NEBo_Cloud_container/
-NEBo_Cloud_Network/
-NEBo_Cloud_Storage/
-NEBo_Programming_scripting/
-NEBo_Configuration_Management/
+# Images/
+# NEBo_cloud_security/
+# NEBo_Cloud_Observability/
+# NEBo_Cloud_container/
+# NEBo_Cloud_Network/
+# NEBo_Cloud_Storage/
+# NEBo_Programming_scripting/
+# NEBo_Configuration_Management/
