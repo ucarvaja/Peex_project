@@ -4,7 +4,6 @@
 
 This porject solves NEBo tasks for Peex and covers cloud related exercises (AWS). 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## NEBo Configuration Management
 
@@ -53,6 +52,9 @@ file default.conf -> redirects requests to index.html.
 Default container port: 80.   
 Dockefile reference : CMD.   
 To create multi OS images requires docker [buildx](https://docs.docker.com/reference/cli/docker/buildx/) before pushing images to the registry. 
+
+- Note:
+    - The dog breed app that is deployed was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## NEBo programming and scripting
 
