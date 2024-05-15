@@ -44,7 +44,7 @@ Dockefile reference : CMD.
 To create multi OS images requires docker [buildx](https://docs.docker.com/reference/cli/docker/buildx/) before pushing images to the registry. 
 
 
-## Ansible
+## NEBo Configuration Management
 
 ![Ansible Schema](/Images/Ansible_Diagram.jpg)
 
@@ -54,7 +54,7 @@ Ansible version 2.15.3.
 To run playbook use `ansible-playbook ansible_multi_os.yaml`.   
     Note:Ansible Nodes must be already synced up with master
 
-## Peex_script
+## NEBo programming and scripting
 
 This script is mean to be use as user data file when launching a Linux ec2 instance.
 what it does:
@@ -68,13 +68,25 @@ what it does:
 - Create a VirtualHost configuration file to serve satatic content on port 8090. 
 - file `user_data_script_64` is encrypted with base64 encoding. 
 
-## Cloud Network NEBo
+## NEBo Cloud Network
 
 [more_info](https://github.com/ucarvaja/Peex_project/tree/main/Cloud_Network_NEBo)
 
-## Cloud Security NEBo
+## NEBo Cloud Security
 
 [more info](https://github.com/ucarvaja/Peex_project/tree/main/NEBo_cloud_security)
+
+## NEBo_Cloud_Observability
+
+[more_info](https://github.com/ucarvaja/Peex_project/tree/main/NEBo_Cloud_Observability)
+
+## NEBo Cloud Container
+
+[more_info](https://github.com/ucarvaja/Peex_project/tree/main/NEBo_Cloud_container)
+
+## NEBo Cloud storage
+
+[more_info](https://github.com/ucarvaja/Peex_project/tree/main/NEBo_Cloud_Storage)
 
 ## Learn More
 
