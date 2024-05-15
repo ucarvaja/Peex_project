@@ -1,6 +1,6 @@
   - name: Install Docker and deploy container
     hosts: 172.31.85.101
-    remote_user: ansadmin  # Default user for Amazon Linux AMI(si es root se usa ec2-user)
+    remote_user: ansadmin  # Default user for Amazon Linux AMI(si es root se usa ec2-user)__
     become: true
     tasks:
 
