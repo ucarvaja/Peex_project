@@ -1,4 +1,4 @@
-# Getting started with Config Management
+# Peex Project
 
 ## General Info
 
@@ -54,6 +54,7 @@ To create multi OS images requires docker [buildx](https://docs.docker.com/refer
 - To run playbook use `ansible-playbook ansible_multi_os.yaml`.   
     - Note:Ansible Nodes must be already synced up with master
 - [more_info](https://github.com/ucarvaja/Peex_project/tree/main/NEBo_Configuration_Management)
+
 ## NEBo programming and scripting
 
 This script is mean to be use as user data file when launching a Linux ec2 instance.
