@@ -2,8 +2,8 @@
 
 # dependencies
 NEBo_Configuration_Management/node_modules
-/.pnp
-.pnp.js
+NEBo_Configuration_Management/.pnp
+NEBo_Configuration_Management.pnp.js
 
 # testing
 NEBo_Configuration_Management/coverage
